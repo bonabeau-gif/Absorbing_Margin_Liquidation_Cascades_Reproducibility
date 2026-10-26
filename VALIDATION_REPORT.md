@@ -1,0 +1,95 @@
+# Validation report
+
+Passed **82/82** checks.
+
+- PASS — exists: finiteN_lognormal.csv
+- PASS — exists: finiteN_theory_constants.csv
+- PASS — exists: finiteN_pareto.csv
+- PASS — exists: impact_law_onsets.csv
+- PASS — exists: cusp_vs_tilt.csv
+- PASS — exists: pareto_exponents.csv
+- PASS — exists: pareto_late_collapse.csv
+- PASS — exists: avalanches_equal.csv
+- PASS — exists: avalanches_lognormal.csv
+- PASS — exists: avalanches_1.5.csv
+- PASS — exists: path_size.csv
+- PASS — exists: path_ramp.csv
+- PASS — exists: path_memory.csv
+- PASS — exists: path_curves_size.npz
+- PASS — exists: path_curves_ramp.npz
+- PASS — exists: path_curves_memory.npz
+- PASS — finiteN_theory_constants.csv rows: rows=1, expected=1
+- PASS — finiteN_theory_constants.csv numeric: max abs difference=0; tolerance rtol=2e-06, atol=2e-08
+- PASS — impact_law_onsets.csv rows: rows=5, expected=5
+- PASS — impact_law_onsets.csv numeric: max abs difference=0; tolerance rtol=2e-06, atol=2e-08
+- PASS — cusp_vs_tilt.csv rows: rows=41, expected=41
+- PASS — cusp_vs_tilt.csv numeric: max abs difference=0; tolerance rtol=2e-06, atol=2e-08
+- PASS — finiteN_lognormal.csv rows: rows=6, expected=6
+- PASS — finiteN_lognormal.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — finiteN_pareto.csv rows: rows=30, expected=30
+- PASS — finiteN_pareto.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — pareto_exponents.csv rows: rows=5, expected=5
+- PASS — pareto_exponents.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — pareto_late_collapse.csv rows: rows=18, expected=18
+- PASS — pareto_late_collapse.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — path_size.csv rows: rows=14, expected=14
+- PASS — path_size.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — path_ramp.csv rows: rows=9, expected=9
+- PASS — path_ramp.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — path_memory.csv rows: rows=69, expected=69
+- PASS — path_memory.csv numeric: max abs difference=0; tolerance rtol=0.03, atol=0.0003
+- PASS — fold B+: got 0.02931704; target 0.02931704; atol=2e-07, rtol=0
+- PASS — fold d0+: got 0.10892667; target 0.10892667; atol=2e-07, rtol=0
+- PASS — finite-N dispersion coefficient: got 0.26819267; target 0.26819267; atol=2e-06, rtol=0
+- PASS — finite-N mean-shift coefficient: got 0.90997893; target 0.90997893; atol=2e-06, rtol=0
+- PASS — finite-N takeoff coefficient: got 0.29945134; target 0.29945134; atol=2e-06, rtol=0
+- PASS — impact onset square-root: got 0.24050865; target 0.240509; atol=3e-05, rtol=0
+- PASS — impact onset linear-to-square-root: got 0.22132567; target 0.221326; atol=3e-05, rtol=0
+- PASS — impact onset linear: got 0.2328238; target 0.232824; atol=3e-05, rtol=0
+- PASS — impact onset logarithmic: got 0.18412822; target 0.184128; atol=3e-05, rtol=0
+- PASS — impact onset saturating: got 0.13796671; target 0.137967; atol=3e-05, rtol=0
+- PASS — tilt Lambda chi=-0.8: got 0.27621793; target 0.276218; atol=3e-05, rtol=0
+- PASS — tilt leverage chi=-0.8: got 2.3777432; target 2.377743; atol=3e-05, rtol=0
+- PASS — tilt Lambda chi=0: got 0.23989205; target 0.239892; atol=3e-05, rtol=0
+- PASS — tilt leverage chi=0: got 2.1732878; target 2.173288; atol=3e-05, rtol=0
+- PASS — tilt Lambda chi=0.8: got 0.21168704; target 0.211687; atol=3e-05, rtol=0
+- PASS — tilt leverage chi=0.8: got 1.9997942; target 1.999794; atol=3e-05, rtol=0
+- PASS — finite-N exponent field: fit=-0.483; expected near -0.48
+- PASS — finite-N exponent shift: fit=-0.666; expected near -0.67
+- PASS — large-N mean jump: got 0.683772; target 0.68377; atol=0.003, rtol=0
+- PASS — Pareto IQR exponent mu=1.25: got 0.22663282; target 0.23; atol=0.03, rtol=0
+- PASS — Pareto IQR exponent mu=1.5: got 0.31346137; target 0.31; atol=0.03, rtol=0
+- PASS — Pareto IQR exponent mu=1.75: got 0.37339881; target 0.37; atol=0.03, rtol=0
+- PASS — Pareto IQR exponent mu=2.5: got 0.46578841; target 0.47; atol=0.03, rtol=0
+- PASS — Pareto IQR exponent mu=4.0: got 0.50066842; target 0.5; atol=0.03, rtol=0
+- PASS — ramp width steps T=4000: got 32.15625; target 32.2; atol=1.2, rtol=0
+- PASS — ramp field width T=250: got 0.029575; target 0.0296; atol=0.002, rtol=0
+- PASS — ramp field width T=64000: got 0.00013917969; target 0.00014; atol=3e-05, rtol=0
+- PASS — transient transition-field sd N=2000: got 0.0064004425; target 0.0064; atol=0.0012, rtol=0
+- PASS — transient transition-field sd N=8000: got 0.0070029425; target 0.007; atol=0.0012, rtol=0
+- PASS — transient transition-field sd N=64000: got 0.0051230657; target 0.0051; atol=0.0012, rtol=0
+- PASS — permanent transition-field sd N=1000: got 0.0043033474; target 0.0043; atol=0.0008, rtol=0
+- PASS — permanent transition-field sd N=64000: got 0.0007039906; target 0.0007; atol=0.0008, rtol=0
+- PASS — largest 200-step event h=-1: got 0.85695523; target 0.857; atol=0.025, rtol=0
+- PASS — largest 200-step event h=80: got 0.80489297; target 0.805; atol=0.025, rtol=0
+- PASS — largest 200-step event h=20: got 0.61342196; target 0.613; atol=0.04, rtol=0
+- PASS — largest 200-step event h=3: got 0.23113686; target 0.231; atol=0.025, rtol=0
+- PASS — no-feedback largest 200-step event: got 0.046342969; target 0.046; atol=0.006, rtol=0
+- PASS — figure 1
+- PASS — figure 2
+- PASS — figure 3
+- PASS — figure 4
+- PASS — figure 5
+- PASS — figure 6
+- PASS — figure 7
+- PASS — figure 8
+- PASS — figure 9
+
+## Targeted checks
+
+- PASS — avalanche finite-size diagnostic.
+- PASS — stalled-ignition diagnostic.
+- PASS — event-independent dominant-holder control.
+- PASS — path-model binary mean-field benchmark.
+- PASS — regenerated Figures 1–9 match the bundled expected figures by SHA-256.
+- PASS — analytic smoke tests.

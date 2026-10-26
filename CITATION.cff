@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or its generated results, please cite the associated study."
+title: "Absorbing Margin-Liquidation Cascades Reproducibility"
+type: software
+authors:
+  - family-names: Bonabeau
+    given-names: Eric
+date-released: "2026-10-26"

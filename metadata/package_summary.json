@@ -1,0 +1,9 @@
+{
+  "package_name": "Absorbing Margin-Liquidation Cascades Reproducibility",
+  "scope": "Analytic calculations, Monte Carlo experiments, path-resolved simulations, targeted controls, and Figures 1-9",
+  "empirical_data": false,
+  "fixed_random_seeds": true,
+  "principal_validation": "validate_results.py",
+  "targeted_control_validation": "validate_controls.py and validate_diagnostics.py",
+  "figure_validation": "validate_figures.py"
+}

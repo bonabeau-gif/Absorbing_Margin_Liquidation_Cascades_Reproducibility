@@ -1,0 +1,4 @@
+case,transition_field,low,high,total_drawdown_at_fold,B_at_fold
+binary_mean_field_permanent,0.10468681982772748,,,0.13683337973343335,0.018912219372827162
+path_resolved_permanent_largeN_median,0.19552888888888884,0.1953733333333333,0.1956533333333333,,
+path_resolved_half_life80_largeN_median,0.23323555555555545,0.2320999999999999,0.2352266666666666,,
